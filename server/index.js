@@ -1,7 +1,10 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const transactions = require('./routes/transactions'); 
+const cors = require("cors");
+const transactions = require('./routes/transactions');
+
+app.use(cors())
 
 
 app.use('/api/transactions', transactions.router);

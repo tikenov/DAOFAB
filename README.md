@@ -2,10 +2,10 @@
 
 Usage:
 
-Client: 
+To run the Server: 
 npm i
 npm start
 
-Server: 
+To run the Client: 
 npm i
 npm start

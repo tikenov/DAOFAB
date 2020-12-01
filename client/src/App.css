@@ -1,0 +1,11 @@
+body {
+  padding-top: 40px;
+}
+.link {
+  color: inherit;
+}
+.link:hover {
+  text-decoration: none;
+  color: inherit;
+  opacity: .6;
+}
